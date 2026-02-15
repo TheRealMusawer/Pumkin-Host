@@ -12,4 +12,4 @@ COPY pumpkin.zip .
 RUN unzip pumpkin.zip && chmod +x pumpkin
 
 # Run Pumpkin
-CMD ["./pumpkin"]
+CMD ["./pumpkin", "--port", "25565"]
